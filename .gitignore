@@ -1,0 +1,17 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Secrets and local configuration — never commit
+.env
+.env.*
+*.jks
+*.keystore
+
+# Build output
+node_modules/
+target/
