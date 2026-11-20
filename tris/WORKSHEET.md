@@ -8,7 +8,7 @@ This worksheet covers Arete on its own. Arete is a fix library for Salesforce an
 
 - Requestor (3): Matt A. Porter — Field Service Technician (FST), matthew.porter@tdstelecom.com
 - Requestor's Manager (4): Josh Barter
-- PAT Manager (5): [INPUT NEEDED: PAT Manager name — note: the process document names an Internal Employee Tools PAT contact as the AIR-access contact; that is not evidence he is the PAT Manager for this request]
+- PAT Manager (5):
 - CoE Director (6): [INPUT NEEDED: CoE Director for the accountable Agile team — if left blank, the TRIS Administrator determines the accountable team, AM, and AD per the process document]
 
 ## Product answers
@@ -31,7 +31,7 @@ This worksheet covers Arete on its own. Arete is a fix library for Salesforce an
 - AI component (26): The library contains no AI model and runs no AI component. Individual fixes may concern AI features of the platform (for example AgentScript agent definitions); AI Policy 710 should be treated as applicable to such submissions.
 - Internet access (28): No — the library is a static repository of documents and source; it makes no network calls. (It is hosted publicly on GitHub.)
 - Hosted internal/external (29): External hosting of the repository (GitHub, public). Contents are generic and publishable by design — no TDS data, org identifiers, internal hostnames, ticket numbers, or credentials are stored in it.
-- Uploads data outside the Enterprise network (30): No — no TDS or org data is uploaded. The repository contains only the requestor's own authored fix material, written for publication; verification evidence is produced in scratch/developer orgs.
+- Uploads data outside the Enterprise network (30): No — no TDS or org data is uploaded. The repository contains only the requestor's own authored material, written for publication — the fix library, plus a draft public comment on NIST SP 2400-102 stored under nist/ (added 2026-11-14); verification evidence is produced in scratch/developer orgs.
 - Inbound access to the Enterprise network (31): No — the library initiates no connections of any kind.
 - Data collected (32): None. The library collects no data and processes no TDS data. Credentials: none are held — the repository is public and credential-free by rule.
 - Java required (33): No.
@@ -45,7 +45,7 @@ This worksheet covers Arete on its own. Arete is a fix library for Salesforce an
 - How long around (43): Library created 2026-11-12. The target platforms (Salesforce and Salesforce Field Service) are long-standing Salesforce offerings already in use at TDS.
 - Governing License (45): Apache License 2.0 governs the library. Salesforce service terms govern the target platforms.
 - License previously reviewed by legal (46): [INPUT NEEDED: whether the Apache License 2.0 has prior TDS legal review in this context — an Apache-2.0 license statement was drafted for the six-product package prepared 2026-11-11]
-- Distributed / external use (47): Yes — the repository is public on GitHub by design (generic, publishable fix material only; no TDS data). No TDS use depends on the public copy.
+- Distributed / external use (47): Yes — the repository is public on GitHub by design (generic, publishable material only; no TDS data). No TDS use depends on the public copy.
 - Modified by TDS (48): No — the library is requestor-authored; TDS modification is not applicable. (Reviewers may adapt a submitted fix under the org's change process.)
 - Directly impacts a product or service provided to customers (49): No — the library is a submission artifact for internal platform changes; anything applied passes TRIS and change control first.
 - Mobile — developer (51): Not applicable to the library itself — it is not a mobile app. Field-service-track fixes concern the Salesforce Field Service mobile app (developer: Salesforce); the fix content is authored by the requestor.
